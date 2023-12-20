@@ -6,7 +6,7 @@ const app = express();
 //   res.send("Server is listning");
 // })
 
-app.get('/jokes', (req, res) => {
+app.get('/api/jokes', (req, res) => {
 	const jokes = [
 		{id: 1, title: "first joke", content: "This is first joke"}, 
 		{id: 2, title: "second joke", content: "This is second joke"},
